@@ -1,4 +1,5 @@
 /********** Template CSS **********/
+
 :root {
     --primary: #FE5D37;
     --light: #FFF5F3;
@@ -15,6 +16,7 @@
 
 
 /*** Spinner ***/
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -30,6 +32,7 @@
 
 
 /*** Button ***/
+
 .btn {
     font-weight: 500;
     transition: .5s;
@@ -67,6 +70,7 @@
 
 
 /*** Heading ***/
+
 h1,
 h2,
 h3,
@@ -98,6 +102,7 @@ h6,
 
 
 /*** Navbar ***/
+
 .navbar .navbar-nav .nav-link {
     padding: 30px 15px;
     color: var(--dark);
@@ -130,11 +135,10 @@ h6,
 }
 
 @media (max-width: 991.98px) {
-    .navbar .navbar-nav .nav-link  {
+    .navbar .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
-
     .navbar .navbar-nav {
         margin-top: 15px;
         border-top: 1px solid #EEEEEE;
@@ -149,9 +153,7 @@ h6,
         opacity: 0;
         visibility: hidden;
         transition: .5s;
-        
     }
-
     .navbar .nav-item:hover .dropdown-menu {
         top: 100%;
         visibility: visible;
@@ -162,6 +164,7 @@ h6,
 
 
 /*** Header ***/
+
 .header-carousel::before,
 .header-carousel::after,
 .page-header::before,
@@ -189,19 +192,16 @@ h6,
         position: relative;
         min-height: 500px;
     }
-    
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
         height: 100%;
         object-fit: cover;
     }
-
     .header-carousel .owl-carousel-item p {
         font-size: 16px !important;
         font-weight: 400 !important;
     }
-
     .header-carousel .owl-carousel-item h1 {
         font-size: 30px;
         font-weight: 600;
@@ -244,12 +244,13 @@ h6,
     background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: rgba(255, 255, 255, .5);
 }
 
 
 /*** Facility ***/
+
 .facility-item .facility-icon {
     position: relative;
     margin: 0 auto;
@@ -336,6 +337,7 @@ h6,
 
 
 /*** About ***/
+
 .about-img img {
     transition: .5s;
 }
@@ -346,6 +348,7 @@ h6,
 
 
 /*** Classes ***/
+
 .classes-item {
     transition: .5s;
 }
@@ -356,6 +359,7 @@ h6,
 
 
 /*** Team ***/
+
 .team-item .team-text {
     position: absolute;
     width: 250px;
@@ -378,6 +382,7 @@ h6,
 
 
 /*** Testimonial ***/
+
 .testimonial-carousel {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -428,6 +433,7 @@ h6,
 
 
 /*** Footer ***/
+
 .footer .btn.btn-social {
     margin-right: 5px;
     width: 45px;
@@ -436,7 +442,7 @@ h6,
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    border: 1px solid rgba(255,255,255,0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 45px;
     transition: .3s;
 }
@@ -472,7 +478,7 @@ h6,
 }
 
 .footer .form-control {
-    border-color: rgba(255,255,255,0.5);
+    border-color: rgba(255, 255, 255, 0.5);
 }
 
 .footer .copyright {
@@ -500,4 +506,24 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+
+/* new css */
+
+.gallery-item {
+    height: 260px;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.gallery-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.4s ease;
+}
+
+.gallery-item:hover .gallery-img {
+    transform: scale(1.08);
 }
