@@ -2,7 +2,7 @@
 
 ## todo
 - a write up (by ms.ab)
-- event menu for parent -> a calendar showing the various events. and the list view, should we make it it's own page or not.
+- event menu for parent -> a calendar showing the various events. and the list view, should we make it it's own page or not. ✅
 - picture gallery for the school, cdn, -> pictures should be hosted. ✅
 
 ## optional
