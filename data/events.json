@@ -1,0 +1,55 @@
+[{
+        "id": 1,
+        "title": "Inter-House Sports Competition",
+        "date": "2025-06-23",
+        "time": "9:00 am - 2:00 pm",
+        "location": "School Sports Complex",
+        "image": "1.jpeg",
+        "description": "A fun-filled sports competition among the school houses, designed to promote teamwork, discipline, and healthy rivalry. Pupils will participate in various track and field events, showcasing their athletic skills and school spirit."
+    },
+    {
+        "id": 2,
+        "title": "Graduation Ceremony",
+        "date": "2025-07-10",
+        "time": "10:00 am",
+        "location": "School Hall",
+        "image": "2.jpg",
+        "description": "A memorable ceremony celebrating the achievements of our graduating pupils. The event will include speeches, award presentations, and special moments recognizing academic growth and character development."
+    },
+    {
+        "id": 3,
+        "title": "Parents-Teachers Meeting",
+        "date": "2025-07-25",
+        "time": "11:00 am",
+        "location": "Conference Room",
+        "image": "3.jpeg",
+        "description": "An interactive session focused on discussing students’ academic progress, behavior, and overall development. Parents and teachers will collaborate to support each child’s learning journey."
+    },
+    {
+        "id": 4,
+        "title": "Cultural Day Celebration",
+        "date": "2025-08-15",
+        "time": "9:00 am - 1:00 pm",
+        "location": "School Auditorium",
+        "image": "1.jpeg",
+        "description": "A colorful celebration of culture and diversity featuring traditional attire, music, dance, and food. Pupils will learn to appreciate different cultures while expressing creativity and confidence."
+    },
+    {
+        "id": 5,
+        "title": "Science Fair Exhibition",
+        "date": "2025-09-05",
+        "time": "10:00 am - 2:00 pm",
+        "location": "Science Laboratory",
+        "image": "2.jpg",
+        "description": "An exciting exhibition where pupils present science projects and experiments. The fair encourages curiosity, problem-solving, and innovation through hands-on learning experiences."
+    },
+    {
+        "id": 6,
+        "title": "Career Day Seminar",
+        "date": "2025-09-20",
+        "time": "11:00 am - 1:00 pm",
+        "location": "School Hall",
+        "image": "3.jpeg",
+        "description": "An informative seminar introducing pupils to various career paths and professions. Guest speakers will share real-life experiences to inspire and guide students in planning for the future."
+    }
+]

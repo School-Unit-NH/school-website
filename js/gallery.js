@@ -14,7 +14,7 @@ function shuffleArray(array) {
 // 🔹 IMAGE SOURCE LIST
 const galleryImages = shuffleArray([
     "1.jpeg", "2.webp", "3.jpeg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg",
-    "classes-1.jpg", "classes-2.jpg", "classes-3.jpg", "classes-4.jpg", "classes-5.jpg"
+    "classes-1.jpg", "classes-2.jpg", "classes-3.jpg", "classes-4.jpg", "classes-5.jpg",
 ]);
 
 let currentPage = 1;
